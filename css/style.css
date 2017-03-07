@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #cee8f0;
+  background-image: url("..//images/smoke2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mainContainer {
+  margin: 0 auto;
+  height: 100vh;
+}
+.textCenter {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.projectTitle {
+  width: 80%;
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-size: 16px;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.squares {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  width: 1020px;
+  height: 660px;
+  position: relative;
+
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  -moz-perspective: 1000;
+  -webkit-perspective: 1000; /* Chrome, Safari, Opera */
+   perspective: 1000;
+}
+.square::after {
+  content: "";
+  background-color: #ff8426;
+  background-image: url("..//images/smoke.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 10px;
+  z-index: -1;
+
+  -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.square {
+  border: 3px solid #000000;
+  position: absolute;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg);
+  border-radius: 15px;
+}
+a {
+  cursor: pointer;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -moz-transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+a:hover {
+  -webkit-transform: rotateX(180deg) rotate(225deg);
+  -moz-transform: rotateX(180deg) rotate(225deg);
+  -ms-transform: rotateX(180deg) rotate(225deg);
+  -o-transform: rotateX(180deg) rotate(225deg);
+  transform: rotateX(180deg) rotate(225deg);
+}
+.front {
+  -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.back {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  width: 80%;
+  border-radius: 15px;
+
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg) rotateX(180deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(135deg) rotateX(180deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(135deg) rotateX(180deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(135deg) rotateX(180deg);
+  transform: translateX(-50%) translateY(-50%) rotate(135deg) rotateX(180deg);
+
+  -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.square1 {
+  left: 379px;
+  top: 235px;
+  width: 200px;
+  height: 200px;
+  background-image: url("..//images/port3.png");
+  background-size: 430px;
+  background-position: center;
+}
+.square2 {
+  left: 65px;
+  top: 70px;
+  width: 300px;
+  height: 300px;
+  background-image: url("..//images/port5.png");
+  background-size: 500px;
+  background-position: center;
+}
+.square3 {
+  left: 332px;
+  top: 461px;
+  width: 150px;
+  height: 150px;
+  background-image: url("..//images/github.png");
+  background-size: 200px;
+  background-position: center;
+}
+.square4 {
+  left: 852px;
+  top: 333px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.square5 {
+  left: 275px;
+  top: 368px;
+  width: 100px;
+  height: 100px;
+}
+.square6 {
+  left: 508px;
+  top: 448px;
+  width: 80px;
+  height: 80px;
+}
+.square7 {
+  left: 602px;
+  top: 318px;
+  width: 200px;
+  height: 200px;
+  background-image: url("..//images/port4.jpg");
+  background-size: 530px;
+  background-position: center;
+}
+.square8 {
+  left: 533px;
+  top: 81px;
+  width: 200px;
+  height: 200px;
+  background-image: url("..//images/port1.png");
+  background-size: 500px;
+  background-position: center;
+}
+.square9 {
+  left: 364px;
+  top: 29px;
+  width: 150px;
+  height: 150px;
+  background-image: url("..//images/port2.png");
+  background-size: 290px;
+  background-position: center;
+}
+.square10 {
+  left: 746px;
+  top: 191px;
+  width: 150px;
+  height: 150px;
+  background-image: url("..//images/linkedin.png");
+  background-size: 300px;
+  background-position: center;
+}
+.square11 {
+  left: 806px;
+  top: 452px;
+  width: 100px;
+  height: 100px;
+}
+.square12 {
+  left: 747px;
+  top: 72px;
+  width: 80px;
+  height: 80px;
+}
+.square13 {
+  left: 590px;
+  top: 508px;
+  width: 50px;
+  height: 50px;
+}
+.square14 {
+  left: 731px;
+  top: 531px;
+  width: 80px;
+  height: 80px;
+}
+.square15 {
+  left: 818px;
+  top: 590px;
+  width: 50px;
+  height: 50px;
+}
+.hide {
+  display: none;
+}
+.ie8 p.back {
+  display: none;
+}
+.ie9 p.back {
+  display: none;
+}
