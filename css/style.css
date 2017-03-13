@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 body {
+  min-width: 1020px;
+  min-height: 660px;
   background-color: #cee8f0;
   background-image: url("..//images/smoke2.png");
   background-size: contain;
@@ -61,6 +63,7 @@ body {
   right: 0;
   position: absolute;
   border-radius: 10px;
+  border: 0;
   z-index: -1;
 
   -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
