@@ -294,6 +294,24 @@ a:hover {
     top: 756px;
   }
 }
+@media (max-width: 430px){
+  .squares {
+    height: auto;
+    width: auto;
+
+    -webkit-transform: scale(0.72);
+    -moz-transform: scale(0.72);
+    -ms-transform: scale(0.72);
+    -o-transform: scale(0.72);
+    transform: scale(0.72);
+
+    -webkit-transform-origin: top center;
+    -moz-transform-origin: top center;
+    -ms-transform-origin: top center;
+    -o-transform-origin: top center;
+    transform-origin: top center;
+  }
+}
 .hide {
   display: none;
 }
